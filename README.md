@@ -10,9 +10,7 @@ The observation space consists of 8 variables corresponding to the position and 
 This task is episodic, and, after each episode, we sum the total rewards for the two respective agents and take the maximum of the 2 scores, yielding a single score for each episode. The environment is considered solved, when the average (over 100 episodes) of those scores is at least +0.5.
 
 ### Initialization
- First, clone this repository.
- 
- Next, select the environment that matches your operating system:
+ First, clone this repository. Next, select the environment that matches your operating system:
  
 •Linux: [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)
 •Mac OSX: [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip)
