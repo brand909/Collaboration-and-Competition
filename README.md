@@ -3,7 +3,7 @@ A deep reinforcement learning approach to a multi-agent system
 ### Introduction
 ![](Uploads/tennis.gif)
 
-In this environment, two agents control rackets to bounce a ball over a net. If an agent hits the ball over the net, it receives a reward of +0.1. If an agent lets a ball hit the ground or hits the ball out of bounds, it receives a reward of -0.01. Thus, the goal of each agent is to keep the ball in play.
+In this environment, two agents control rackets respectively to bounce a ball over a net. Hitting a ball over the net returns a reward of +0.1 to the given agent. Letting the ball hit the ground or go out of bounds returns a reward of -0.01. Thus, the reward structure is such that each agent wants to keep the ball in play.
 
 The observation space consists of 8 variables corresponding to the position and velocity of the ball and racket. Each agent receives its own, local observation. Two continuous actions are available, corresponding to movement toward (or away from) the net, and jumping.
 
