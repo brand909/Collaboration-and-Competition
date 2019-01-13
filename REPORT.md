@@ -1,4 +1,6 @@
-The agent uses a deep deterministic policy gradient algorithm (DDPG) adjusted to a multi-agent case. In this algorithm, 
+### Using Deep Deterministic Policy Gradients to Optimize Multiple Observation-Exclusive Agents
+
+The algorithm uses a deep deterministic policy gradients (DDPG) adjusted to a multi-agent case. In this algorithm, 
 there is an actor and a critic, each with a local approximation and a target approximation. It applies soft-updates, 
 slowly blending the local network weights with the target network weights, and applies noise to its actions to add 
 stochasticity.
