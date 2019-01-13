@@ -10,6 +10,7 @@ The observation space consists of 8 variables corresponding to the position and 
 This task is episodic, and, after each episode, we sum the total rewards for the two respective agents and take the maximum of the 2 scores, yielding a single score for each episode. The environment is considered solved when the average (over 100 episodes) of those scores is at least +0.5.
 
 ### Initialization
+
  First, clone this repository. Next, select the environment that matches your operating system:
  
 •Linux: [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)
@@ -21,7 +22,7 @@ This task is episodic, and, after each episode, we sum the total rewards for the
 
 ### Implementation
 
-To solve this, it's recommended that you use an actor-critic agent. I used a deep deterministic policy gradient (DDPG) algorithm, but there are other approaches. You can read about the DDPG algorithm [here](https://arxiv.org/pdf/1509.02971.pdf). The code for DDPG can be found in the file agent.py and the neural network models can be found in the file model.py. See the implementation of the algorithm and its resulting scores in Tennis.ipynb.
+To solve this, it's recommended that you use an actor-critic agent. I used a deep deterministic policy gradient (DDPG) algorithm, but there are other approaches. You can read about the DDPG algorithm [here](https://arxiv.org/pdf/1509.02971.pdf). The code for DDPG can be found in the file [agent.py](https://github.com/brand909/Collaboration-and-Competition/blob/master/agent.py) and the neural network models can be found in the file [model.py](https://github.com/brand909/Collaboration-and-Competition/blob/master/model.py). See the implementation of the algorithm and its resulting scores in [Tennis.ipynb](https://github.com/brand909/Collaboration-and-Competition/blob/master/Tennis.ipynb) and [my report here](https://github.com/brand909/Collaboration-and-Competition/blob/master/REPORT.md).
 
  
  
