@@ -39,3 +39,5 @@ landed in bounds, then the nature of the learning would change, given that the t
 would try to exploit patterns in the opposing agent until both neural networks converged and played perfectly, in theory. Or, 
 imagine that each agent has a limited observation range so they can't see the ball unless it is close to them. Small 
 variations in the environment will completely change how the agents interact with each other and how they learn.
+
+I would like to find ways of stabilizing and maintaining the online training performance of these agents. Perhaps PPO or D4G can be used, or perhaps just some alterations of the learning hyperperameters is in order.
