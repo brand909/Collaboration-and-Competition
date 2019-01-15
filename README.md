@@ -52,7 +52,7 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
 
 ## Implementation
 
-To solve this, it's recommended that you use an actor-critic agent. I used a deep deterministic policy gradient (DDPG) algorithm, but there are other approaches. You can read about the DDPG algorithm [here](https://arxiv.org/pdf/1509.02971.pdf). The code for DDPG can be found in the file [agent.py](https://github.com/brand909/Collaboration-and-Competition/blob/master/agent.py), the neural network models can be found in the file [model.py](https://github.com/brand909/Collaboration-and-Competition/blob/master/model.py). See the implementation of the algorithm and its resulting scores in [Tennis.ipynb](https://github.com/brand909/Collaboration-and-Competition/blob/master/Tennis.ipynb) and [my report here](https://github.com/brand909/Collaboration-and-Competition/blob/master/REPORT.md).
+To solve this, it's recommended that you use an actor-critic agent. I used a deep deterministic policy gradient (DDPG) algorithm, but there are other approaches. You can read about the DDPG algorithm [here](https://arxiv.org/pdf/1509.02971.pdf). The code for DDPG can be found in the file [agent.py](https://github.com/brand909/Collaboration-and-Competition/blob/master/agent.py) and the neural network models can be found in the file [model.py](https://github.com/brand909/Collaboration-and-Competition/blob/master/model.py). See the implementation of the algorithm and its resulting scores in [Tennis.ipynb](https://github.com/brand909/Collaboration-and-Competition/blob/master/Tennis.ipynb) and [my report here](https://github.com/brand909/Collaboration-and-Competition/blob/master/REPORT.md).
 
  
  
