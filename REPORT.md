@@ -33,8 +33,8 @@ Saving the highest average of a deque also isn't perfect, as the save comes at t
 can drop off by some amount in the following episode that's outside that scoring window. Yet, it still is more reliable than 
 saving on the highest scoring episode.
 
-![](Uploads/scoring.png)
-Environment solved in 2217 episodes; average score at this time: 0.500
+![](Uploads/scoring.png) 
+###### Environment solved in 2217 episodes; average score at this time: 0.500
 
 Looking at the performance of the trained agent, it did very well in episode 1 and 2, but in episode 2, 3, and 4 it did 
 poorly, falling under the 0.5 score threshold set. It can be seen where the parameter weights were saved by looking at the 
